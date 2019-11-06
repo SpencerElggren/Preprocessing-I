@@ -3,10 +3,11 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <title>My Resume</title>
 
-  <link rel="stylesheet" href="css/index.css">
+  <link rel="stylesheet" href="less/index.css">
 
   <!--[if lt IE 9]>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
@@ -14,6 +15,78 @@
 </head>
 
 <body>
-  <h1>My Resume</h1>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="about">About</a>
+    <a href="https://spencerelggren.github.io/">Portfolio</a>
+    <a href="contact">Contact</a>
+  </nav>
+  <div class="header">
+    <img src="Radiology.jpg" alt="radiology" style="height: auto; width: 25%">
+    <h1>Spencer Elggren</h1>
+    <h2>Web Developer</h2>
+    <p>Open for interviews and side projects.</p>
+  </div>
+
+  <div class="about">
+    <section class="summary">
+      <h2>About Me</h2>
+      <p>A web developer and software engineer looking to learn and apply his skills.
+      I want to learn as much as I can in various positions, leaving lasting impacts on them
+      to eventually work in health care software development and show how technology can
+      not only make lives easier, but save those lives. My goal in life is to
+        leave my mark on this world by using technology to the betterment of mankind.</p>
+    </section>
+    <section class="expertise">
+      <h2>Skills</h2>
+      <ul>
+        <li>HTML/CSS</li>
+        <li>Javascript</li>
+        <li>React</li>
+        <li>Java</li>
+        <li>Python</li>
+        <li>Django</li>
+      </ul>
+    </section>
+  </div>
+
+  <div class="table">
+    <h2>Work Experience</h2>
+    <table style="width:100%">
+      <tr>
+        <th>Company</th>
+        <th>Title</th>
+        <th>Tech Used</th>
+        <th>Years Worked</th>
+      </tr>
+      <tr class="colored">
+        <td>ARUP Laboratories</td>
+        <td>Processing Technician</td>
+        <td>LIMS/Millennium</td>
+        <td>.5</td>
+      </tr>
+      <tr>
+        <td>University of Utah</td>
+        <td>Imaging Service Representative</td>
+        <td>EPIC/Cisco/DICOM</td>
+        <td>1</td>
+      </tr>
+      <tr class="colored">
+        <td>HouseMaster</td>
+        <td>QA Technician</td>
+        <td>HTML/CSS/Javascript</td>
+        <td>.5</td>
+      </tr>
+      <tr>
+        <td>Intermountain Healthcare</td>
+        <td>Patient Care Technician</td>
+        <td>iCentra/EKG</td>
+        <td>1</td>
+      </tr>
+    </table>
+  </div>
+  <div class="contact">
+    <p>Phone: (xxx)xxx-xxxx email: myname@email.com</p>
+  </div>
 </body>
 </html>
